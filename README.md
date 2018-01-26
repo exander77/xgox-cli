@@ -1,10 +1,15 @@
 xgox-cli
 ===========
 
-The missing command line interface for xgoxd using RPC.
+The missing command line interface for xgoxd using RPC. It is written in NodeJS, so you need to have NPM and NodeJS installed.
 
 ```
 sudo npm install -g xgox-cli
+```
+
+```
+npm install
+./bin/xgox-cli getbalance
 ```
 
 # Usage
