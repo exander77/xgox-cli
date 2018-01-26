@@ -1,27 +1,27 @@
-bitcoin-cli
+xgox-cli
 ===========
 
-The missing command line interface for bitcoind using RPC.
+The missing command line interface for xgoxd using RPC.
 
 ```
-sudo npm install -g bitcoin-cli
+sudo npm install -g xgox-cli
 ```
 
 # Usage
 
 ```
-bitcoin-cli [args] method arguments
+xgox-cli [args] method arguments
 ```
 
 ## Arguments:
 
 * `--testnet` or `-t`: Use to default testnet port
-* `--host` or `-h`: Define bitcoind host
-* `--port` or `-p`: Define bitcoind port
+* `--host` or `-h`: Define xgoxd host
+* `--port` or `-p`: Define xgoxd port
 * `--rpcuser`: Define rpc username
 * `--rpcpassword`: Define rpc password
 
-If `rpcuser` and `rpcpassword` are not defined, the client will try to get them from `~/Library/Application\ Support/Bitcoin/bitcoin.conf`.
+If `rpcuser` and `rpcpassword` are not defined, the client will try to get them from `~/.xgox/xgox.conf`.
 
 # License
 

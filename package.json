@@ -1,16 +1,16 @@
 {
-  "name": "bitcoin-cli",
+  "name": "xgox-cli",
   "version": "0.0.3",
-  "description": "A command line interface for bitcoind",
+  "description": "A command line interface for xgoxd",
   "main": "index.js",
-  "bin": "./bin/bitcoin-cli",
+  "bin": "./bin/xgox-cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Yemel Jardi <angel.jardi@gmail.com> (http://github.com/yemel)",
+  "author": "Radomír Polách <rp@t4d.cz> (http://github.com/exander77)",
   "license": "MIT",
   "dependencies": {
-    "bitcoind-rpc": "^0.2.1",
-    "minimist": "^1.1.0"
+    "bitcoind-rpc": "^0.7.1",
+    "minimist": "^1.2.0"
   }
 }
