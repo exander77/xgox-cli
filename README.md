@@ -15,7 +15,6 @@ xgox-cli [args] method arguments
 
 ## Arguments:
 
-* `--testnet` or `-t`: Use to default testnet port
 * `--host` or `-h`: Define xgoxd host
 * `--port` or `-p`: Define xgoxd port
 * `--rpcuser`: Define rpc username
